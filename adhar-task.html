@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="adhar-task.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        
+        <div class="table">
+            
+            <form method="get" id="form1">
+                <ul>
+                    <p id="para"></p>
+                    <li> <label for="lname"><b>Last Name:</b></label>
+                        <input type="text" class="space" id="lname" placeholder="Last Name">
+                    </li>
+        
+                    <li>
+                        <label for="fname"><b>First Name:</b></label>
+                        <input type="text" id="fname" class="space" placeholder="First Name">
+                    </li>
+        
+                    <li><label for="pname"><b>Father Name:</b></label>
+                        <input type="text" id="pname" class="space" placeholder="Father Name">
+                    </li>
+        
+                    <li>
+                        <label for="mname"><b>Mother Name:</b></label>
+                        <input type="text" id="mname" class="space" placeholder="Mother Name">
+                    </li>
+        
+                    <li>
+                        <p><b>Gender:</b></p>
+                        <label for="male"><b>Male</b></label>
+                        <input type="radio" name="gender" id="male">
+        
+                        <label for="female"><b>Female</b></label>
+                        <input type="radio" name="gender" id="female">
+        
+                        <label for="other"><b>Other</b></label>
+                        <input type="radio" name="gender" id="other">
+                    </li>
+        
+                    <li>
+                        <label for="age"><b>Age:</b></label>
+                        <input type="age" placeholder="Age" id="age" class="space">
+                    </li>
+        
+                    <li>
+                        <label for="dob"><b>Date Of Birth:</b></label>
+                        <input type="date" class="space" id="dob" placeholder="Date Of Birth">
+                    </li>
+        
+                    <li>
+                        <label for="pan"><b>Pan Card No.:</b></label>
+                        <input type="text" name="" id="pan" class="space" placeholder="If any">
+                    </li>
+        
+                    <li>
+                        <label for="license"><b>Driving License No.:</b></label>
+                        <input type="text" id="license" class="space" placeholder="If any">
+                    </li>
+        
+                    <li>
+                        <label for="address"><b>Address:</b></label>
+                        <textarea id="address" class="space" cols="30" rows="10" placeholder="flat No/Room No,floor,wing,building name/street name, city, district,state,pincode"></textarea>
+                    </li>
+        
+                    <li>
+                        <label for="district"><b>District:</b></label>
+                        <select name="district" id="district" class="space">
+                            <option value="placeholder">Select district</option>
+                            <option value="mum">Mumbai</option>
+                            <option value="pune">Pune</option>
+                            <option value="nask">Nashik</option>
+                            <option value="nanded">Nanded</option>
+                        </select>
+                    </li>
+        
+                    <li>
+                        <label for="city"><b>City:</b></label>
+                        <select id="city" class="space">
+                            <option value="placeholder">Select city</option>
+                            <option value="mum">Mumbai</option>
+                            <option value="pune">Pune</option>
+                            <option value="nask">Nashik</option>
+                            <option value="nanded">Nanded</option>
+                    </select>
+                    </li>
+        
+                    <li>
+                        <label for="pin"><b>pincode:</b></label>
+                        <input type="text" id="pin" class="space" placeholder="450450">
+                    </li>
+                    
+                    <li>
+                        <label for="state"><b>State:</b></label>
+                        <select id="state" class="space">
+                            <option value="placeholder">Select state</option>
+                            <option value="mah">maharastra</option>
+                            <option value="karntk">karnataka</option>
+                            <option value="nask">Nashik</option>
+                            <option value="nanded">Nanded</option>
+                    </select>
+                    </li>
+        
+                    <li>
+                        <label for="country"><b>Country:</b></label>
+                        <select id="country" class="space">
+                            <option value="placeholder">Select country</option>
+                            <option value="ind">India</option>
+                            <option value="pak">Pakistan</option>
+                            <option value="china">China</option>
+                            <option value="usa">USA</option>
+                    </select>
+                    </li>
+        
+                    <li>
+                        <label for="bnkname"><b>Bank Name:</b></label>
+                        <input type="text" id="bnkname" placeholder="Bank Name" class="space">
+                    </li>
+        
+                    <li>
+                        <label for="bnkac"><b>Bank A/C No.:</b></label>
+                        <input type="text" id="bnkac" class="space" placeholder="A/c no">
+                    </li>
+        
+                    <li>
+                    <input type="checkbox" id="tandc" class="space">
+                    <label for="tandc" id="change"><b><span>I agree to Terms and Conditions</span></b></label>
+                    </li>
+
+                    <input type="submit" id="submit2">
+                </ul>
+                
+            </form>
+           
+        </div>
+    </div>
+    
+    
+
+    
+
+    
+
+    <script src="./adhar-task.js"></script>
+</body>
+</html>
